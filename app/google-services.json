@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "874044975673",
+    "project_id": "wordlegame-8758f",
+    "storage_bucket": "wordlegame-8758f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874044975673:android:8c47492ccf11d1d9b43be8",
+        "android_client_info": {
+          "package_name": "com.example.wordle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNc-MLV7PDmsLYRWzcuABBktbCHwPSszo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

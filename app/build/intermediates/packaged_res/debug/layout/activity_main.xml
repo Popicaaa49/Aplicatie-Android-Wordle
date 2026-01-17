@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textColor="@color/title_text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_new_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chapter_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/label_chapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/chapter_label"
+            android:textColor="@color/title_text"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_chapter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/level_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/grid_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="5"
+            android:rowCount="6"
+            android:useDefaultMargins="true" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button style="@style/KeyButton" android:text="Q" android:tag="Q" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="W" android:tag="W" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="E" android:tag="E" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="R" android:tag="R" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="T" android:tag="T" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="Y" android:tag="Y" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="U" android:tag="U" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="I" android:tag="I" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="O" android:tag="O" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="P" android:tag="P" android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button style="@style/KeyButton" android:text="A" android:tag="A" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="S" android:tag="S" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="D" android:tag="D" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="F" android:tag="F" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="G" android:tag="G" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="H" android:tag="H" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="J" android:tag="J" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="K" android:tag="K" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="L" android:tag="L" android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button style="@style/KeyButton" android:text="@string/enter" android:tag="ENTER" android:layout_weight="1.5" />
+            <Button style="@style/KeyButton" android:text="Z" android:tag="Z" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="X" android:tag="X" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="C" android:tag="C" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="V" android:tag="V" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="B" android:tag="B" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="N" android:tag="N" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="M" android:tag="M" android:layout_weight="1" />
+            <Button style="@style/KeyButton" android:text="@string/delete" android:tag="DEL" android:layout_weight="1.5" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Wordle Clone</string>
+    <string name="new_game">New Word</string>
+    <string name="enter">ENTER</string>
+    <string name="delete">DEL</string>
+    <string name="chapter_label">Chapter</string>
+    <string name="level_format">Level %1$d</string>
+    <string name="login_subtitle">Sign in to sync your progress</string>
+    <string name="login_status_signed_out">Status: not signed in</string>
+    <string name="login_status_signed_in">Status: signed in (%1$s)</string>
+    <string name="login_sign_in">Continue as guest</string>
+    <string name="login_continue">Start game</string>
+    <string name="login_error">Sign-in failed. Check connection.</string>
+    <string name="login_error_detail">Sign-in failed: %1$s</string>
+    <string name="login_unavailable">Firebase not configured. Continuing offline.</string>
+    <string name="sync_failed">Cloud sync failed</string>
+</resources>

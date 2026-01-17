@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_key_present.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/key_present.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_key_correct.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/key_correct.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_tile_default.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/tile_default.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_key_absent.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/key_absent.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_ic_launcher_round.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.example.wordle.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_tile_absent.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/tile_absent.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_tile_correct.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/tile_correct.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_tile_present.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/tile_present.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/layout_activity_login.xml.flat",
+        "source": "com.example.wordle.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.wordle.app-debug-36:/drawable_key_default.xml.flat",
+        "source": "com.example.wordle.app-main-38:/drawable/key_default.xml"
+    }
+]
